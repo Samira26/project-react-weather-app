@@ -5,7 +5,18 @@ export default function App() {
     <div className="App">
       <h1>Weather App</h1>
       <footer>
-        This project was coded by Samira Mohamed and is open-sourced on Github
+        This project was coded by{" "}
+        <a href="https://github.com/Samira26" target="_blank" rel="noreferrer">
+          Samira Mohamed{" "}
+        </a>{" "}
+        and is open-sourced on{" "}
+        <a
+          href="https://github.com/Samira26/project-react-weather-app"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Github
+        </a>
       </footer>
     </div>
   );
