@@ -48,10 +48,13 @@
 .Weather .unit {
   font-size: 16px;
   font-weight: 500;
-  margin-left: 5px;
   position: relative;
   line-height: 1;
   top: -38px;
+}
+
+.Weather .condition {
+  font-weight: 800;
 }
 
 .Weather img {
