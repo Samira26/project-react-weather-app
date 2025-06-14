@@ -53,6 +53,10 @@
   top: -38px;
 }
 
+.Weather .unit a {
+  text-decoration: none;
+}
+
 .Weather .condition {
   font-weight: 800;
 }
