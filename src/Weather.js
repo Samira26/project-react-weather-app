@@ -4,6 +4,7 @@ import "./Weather.css";
 import { useState } from "react";
 import "./FormattedDate.js";
 import WeatherDetails from "./WeatherDetails.js";
+import WeatherForecast from "./WeatherForecast.js";
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
@@ -64,6 +65,7 @@ export default function Weather(props) {
           </div>
         </form>
         <WeatherDetails data={weatherData} />
+        <WeatherForecast cityForecast={weatherData.city} />
       </div>
     );
   } else {

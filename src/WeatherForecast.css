@@ -1,0 +1,23 @@
+.WeatherForecast {
+  text-align: center;
+  font-size: 12px;
+}
+
+.WeatherForecast-day {
+  font-weight: 800;
+  color: #0e6efd;
+}
+
+.WeatherForecast-temperatures-min {
+  margin-left: 5px;
+}
+
+.WeatherForecast-date {
+  font-weight: 200;
+
+  color: #fffdff;
+}
+
+.WeatherForecast-description {
+  color: #0e6efd;
+}
