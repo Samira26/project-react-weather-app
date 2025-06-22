@@ -9,7 +9,7 @@ const codeMapping = {
   "scattered-clouds-day": "cloudy",
   "scattered-clouds-night": "cloudy",
   "broken-clouds-day": "cloudy",
-  "broken-clouds-night": "cloady",
+  "broken-clouds-night": "cloudy",
   "shower-rain-day": "pouring",
   "shower-rain-night": "pouring",
   "rain-day": "rainy",

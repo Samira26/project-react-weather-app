@@ -9,10 +9,10 @@ export default function WeatherDetails(props) {
       <h1>{props.data.city}</h1>
       <FormattedDate date={props.data.date} />
       <div className="row mt-3">
-        <div className="col-4 weather-details">
+        <div className="col-4 weather-details p-3">
           <TemperatueUnit celsius={props.data.temperature} />
         </div>
-        <div className="col-4">
+        <div className="col-4 p-3">
           <ul>
             <li>
               <span className="condition text-capitalize">
@@ -24,7 +24,7 @@ export default function WeatherDetails(props) {
           </ul>
         </div>
         <div className="col-4">
-          <WeatherIcon code={props.data.icon} width={100} height={100} />
+          <WeatherIcon code={props.data.icon} width={120} height={120} />
         </div>
       </div>
     </div>
